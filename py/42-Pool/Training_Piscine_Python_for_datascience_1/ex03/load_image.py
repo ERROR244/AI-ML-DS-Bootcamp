@@ -37,3 +37,18 @@ def ft_load(path: str) -> np.array:
     except Exception as e:
         print(f"Error: An unexpected error occurred - {str(e)}")
         return None
+    
+
+def display_with_axes(zoomed_image):
+    """
+    Display the zoomed image with axis scales.
+    
+    Parameters:
+        zoomed_image (numpy.ndarray): Image array to display.
+    """
+    plt.figure(figsize=(8, 8))
+    plt.imshow(zoomed_image, cmap='gray')
+    plt.title("Zoomed Image")
+    plt.xlabel("X-axis (pixels)")
+    plt.ylabel("Y-axis (pixels)")
+    plt.show()
