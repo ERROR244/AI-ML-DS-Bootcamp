@@ -1,4 +1,4 @@
-import pandas as pd # type: ignore
+import pandas as pd
 
 
 def load(path: str, max_rows=60) -> pd.core.frame.DataFrame:

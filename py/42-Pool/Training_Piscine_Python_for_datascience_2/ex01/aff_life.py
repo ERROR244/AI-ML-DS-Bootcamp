@@ -1,5 +1,5 @@
 from load_csv import load
-import matplotlib.pyplot as plt # type: ignore
+import matplotlib.pyplot as plt
 
 def main():
     df = load('./../life_expectancy_years.csv')
@@ -13,7 +13,7 @@ def main():
         life_expectancy = country_data.values
         
         plt.plot(years, life_expectancy, label=country)
-        plt.title(f"{country}  Life Expectancy Projections")
+        plt.title(f"{country} Life Expectancy Projections")
         plt.xlabel("Year")
         plt.ylabel("Life Expectancy")
         plt.show()
