@@ -1,4 +1,4 @@
-import numpy as np # type: ignore
+import numpy as np
 
 def ft_invert(array) -> np.array:
     """invert: Inverts the color of the image received."""

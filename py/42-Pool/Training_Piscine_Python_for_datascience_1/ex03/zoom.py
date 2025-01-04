@@ -1,6 +1,6 @@
 from load_image import ft_load, display_with_axes
-import numpy as np # type: ignore
-import matplotlib.pyplot as plt # type: ignore
+import numpy as np
+import matplotlib.pyplot as plt
 
 
 def zoom_image(image, start_x=450, start_y=100, size=400):

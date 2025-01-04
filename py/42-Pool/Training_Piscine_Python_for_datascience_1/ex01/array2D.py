@@ -1,4 +1,4 @@
-import numpy as np # type: ignore
+import numpy as np
 
 def slice_me(family: list, start: int, end: int) -> list:
     if type(family) != list:

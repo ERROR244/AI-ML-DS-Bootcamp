@@ -1,6 +1,6 @@
-import numpy as np # type: ignore
-from PIL import Image # type: ignore
-import matplotlib.pyplot as plt # type: ignore
+import numpy as np
+from PIL import Image
+import matplotlib.pyplot as plt
 
 
 def ft_load(path: str) -> np.array:

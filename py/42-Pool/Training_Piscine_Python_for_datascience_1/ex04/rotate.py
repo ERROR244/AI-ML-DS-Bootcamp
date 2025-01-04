@@ -1,6 +1,6 @@
 from load_image import ft_load, display_with_axes
-import numpy as np # type: ignore
-from PIL import Image # type: ignore
+import numpy as np
+from PIL import Image
 
 def manual_transpose(image_array):
     """

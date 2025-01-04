@@ -1,6 +1,6 @@
 from load_image import ft_load, display
 from pimp_image import ft_invert, ft_red, ft_green, ft_blue, ft_grey
-import numpy as np # type: ignore
+import numpy as np
 
 
 
